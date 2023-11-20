@@ -12,7 +12,7 @@ public class PitchSwitch : MonoBehaviour
     {
         pitch = Input.GetAxis("Vertical");
 
-        ruli.transform.eulerAngles = new Vector3(ruli.transform.eulerAngles.x + pitch * 25, ruli.transform.eulerAngles.y, ruli.transform.eulerAngles.z);
+        ruli.transform.localRotation = Quaternion.Euler(-90 + pitch * 25, ruli.transform.localRotation.y, ruli.transform.localRotation.z);
 
     }
 }

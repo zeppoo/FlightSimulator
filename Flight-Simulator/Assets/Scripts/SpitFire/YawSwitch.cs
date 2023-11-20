@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 public class YawSwitch : MonoBehaviour
@@ -10,9 +11,8 @@ public class YawSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        yaw = Input.GetKey(KeyCode.Q) ? 1 : Input.GetKey(KeyCode.E) ? -1 : 0;
-
-        rudder.transform.rotation = Quaternion.Euler(-90, transform.rotation.y, 0 + yaw * 25);
+        yaw = Input.GetAxis("Yaw");
+        rudder.transform.localRotation = Quaternion.Euler(-90, rudder.transform.localRotation.y, 0 + yaw * 25);
 
         
     }
