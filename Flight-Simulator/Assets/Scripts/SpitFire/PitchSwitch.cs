@@ -5,7 +5,7 @@ using UnityEngine;
 public class PitchSwitch : MonoBehaviour
 {
     [SerializeField] private GameObject ruli;
-    [SerializeField] private float pitch;
+    [SerializeField] public float pitch;
 
     // Update is called once per frame
     void Update()
@@ -14,5 +14,6 @@ public class PitchSwitch : MonoBehaviour
 
         ruli.transform.localRotation = Quaternion.Euler(-90 + pitch * 25, ruli.transform.localRotation.y, ruli.transform.localRotation.z);
 
+        
     }
 }

@@ -6,7 +6,7 @@ public class RollSwitch : MonoBehaviour
 {
     [SerializeField] private GameObject eleron_Left;
     [SerializeField] private GameObject eleron_Right;
-    [SerializeField] private float roll;
+    [SerializeField] public float roll;
     [SerializeField] private float speed;
     private Vector3 direction;
 
