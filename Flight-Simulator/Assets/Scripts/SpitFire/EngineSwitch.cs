@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EngineSwitch : MonoBehaviour
@@ -21,7 +19,7 @@ public class EngineSwitch : MonoBehaviour
         if (engineState == true)
         {
             speedDiff = targetSpeed - rotationSpeed;
-            accelRate =+ speedDiff * 0.1f;
+            accelRate = +speedDiff * 0.1f;
             rotationSpeed = rotationSpeed + accelRate;
             transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
         }

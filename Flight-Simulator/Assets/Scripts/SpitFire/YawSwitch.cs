@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
 using UnityEngine;
 
 public class YawSwitch : MonoBehaviour
@@ -12,6 +9,6 @@ public class YawSwitch : MonoBehaviour
     void Update()
     {
         yaw = Input.GetAxis("Yaw");
-        rudder.transform.localRotation = Quaternion.Euler(-90, rudder.transform.localRotation.y, 0 + -yaw * 25);
+        rudder.transform.localRotation = Quaternion.Euler(-90, rudder.transform.localRotation.y, 0 + yaw * 25);
     }
 }

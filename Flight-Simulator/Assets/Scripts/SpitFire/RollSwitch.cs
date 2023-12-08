@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RollSwitch : MonoBehaviour
@@ -15,7 +13,7 @@ public class RollSwitch : MonoBehaviour
     {
         roll = Input.GetAxis("Horizontal");
 
-        eleron_Left.transform.localRotation = Quaternion.Euler(-90 + -roll * 25, eleron_Left.transform.localRotation.y, eleron_Left.transform.localRotation.z);
-        eleron_Right.transform.localRotation = Quaternion.Euler(-90 + roll * 25, eleron_Right.transform.localRotation.y, eleron_Right.transform.localRotation.z);
+        eleron_Left.transform.localRotation = Quaternion.Euler(-90 + roll * 25, eleron_Left.transform.localRotation.y, eleron_Left.transform.localRotation.z);
+        eleron_Right.transform.localRotation = Quaternion.Euler(-90 + -roll * 25, eleron_Right.transform.localRotation.y, eleron_Right.transform.localRotation.z);
     }
 }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GearSwitch : MonoBehaviour
@@ -21,7 +19,7 @@ public class GearSwitch : MonoBehaviour
             {
                 Gears.SetTrigger("GearDown");
             }
-            else if(gearState == false)
+            else if (gearState == false)
             {
                 Gears.SetTrigger("GearUp");
             }
@@ -33,7 +31,8 @@ public class GearSwitch : MonoBehaviour
             {
                 switchWait = true;
                 counter = 0;
-            } else
+            }
+            else
             {
                 counter += Time.deltaTime;
             }
