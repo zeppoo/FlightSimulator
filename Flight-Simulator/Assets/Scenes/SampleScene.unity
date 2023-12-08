@@ -996,7 +996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1204858315844895832, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.019192994
+      value: 0.019192996
       objectReference: {fileID: 0}
     - target: {fileID: 1204858315844895832, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1004,7 +1004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1204858315844895832, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.008067983
+      value: 0.008067982
       objectReference: {fileID: 0}
     - target: {fileID: 2296674941049524759, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: Gears
@@ -1160,7 +1160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6077490940449786643, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6077490940449786643, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_IsKinematic
@@ -1228,7 +1228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8775598143386457576, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0024252331
+      value: 0.0024252327
       objectReference: {fileID: 0}
     - target: {fileID: 8775598143386457576, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1236,7 +1236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8775598143386457576, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.001019473
+      value: 0.0010194727
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
