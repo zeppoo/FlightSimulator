@@ -475,7 +475,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 149168, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
   m_PrefabInstance: {fileID: 2080029127}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &844190465
+--- !u!114 &844190466
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -487,10 +487,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ba722a51034d0e499776565b03eae2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Weight: 0
+  aircraftName: 
+  weightKg: 0
+  wingArea: 0
+  horsePower: 0
+  speed: 0
+  altitude: 0
   thrust: 0
+  aoa: 0
   lift: 0
   drag: 0
+  liftForce: 10
+  dragFactor: 0.01
 --- !u!1 &1030340222 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 186386, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
@@ -709,7 +717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 497068, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.62
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 497068, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -755,5 +763,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 47f98c3b45916014b91730759484bf15, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7621219024081312711, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5b2c6140eccb253409c26108347d47d3, type: 3}
